@@ -1,0 +1,527 @@
+
+.container-fluid {
+  padding: 0;
+}
+
+.carousel-caption {
+  font-family: liee;
+  font-size: 35px;
+}
+
+carouse
+
+.collapse {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+nav {
+   font-family: aniron;
+   font-size: 11px;
+   font-weight: bold;
+   background-color: rgb(255, 99, 0);
+   border-radius: 0;
+}
+.logo{
+  margin: 5px;
+}
+#myCarousel {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-caption {
+  height: 60%;
+}
+
+.section-title {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.beige {
+  background-image: url(images/bg_light.png);
+  background-repeat: repeat;
+}
+
+.noire {
+  background-image: url(images/bg_dark.png);
+  background-repeat: repeat;
+  color: white;
+}
+
+h2 {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+
+ul.nav {
+  color: black;
+}
+
+html,body {
+    height:100%;
+    padding:0;
+    margin-right: 0;
+    font-family: aniron;
+
+}
+
+.gimli-text {
+  font-family: liee;
+  color: rgb(219, 71, 24);
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+img.media-object {
+  border: 0;
+  border-radius: 100%;
+}
+
+.panel .panel-heading {
+  background-color: #ff6600;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #ff6600;
+    color: white;
+}
+
+.panel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: solid 3px rgb(230, 121, 22);
+}
+
+.panel-body {
+  color: black;
+}
+
+
+table {
+  margin: 15px;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+}
+
+th, td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+td {
+  color: grey
+}
+
+.table-title {
+  border-bottom: solid black 1px;
+}
+
+.table-content {
+  border-bottom: solid grey 1px
+}
+
+.thumbnail {
+  background-color: black;
+}
+
+.box-pills {
+  height: auto;
+  width: 100%;
+}
+
+.box-thumb {
+  height: auto;
+}
+
+.outter {
+  display: block;
+  position: relative;
+}
+
+.inner {
+  background-color: rgba(65, 58, 58, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.contact-row {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transform: skew(-15deg);
+}
+
+.contact-icon {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.media-body {
+    width: 100%
+    height: auto;
+}
+
+
+.thumb {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.img-coin {
+  height: auto;
+}
+
+.parag {
+  font-size: 15px;
+  font-family: liee;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: auto;
+  margin-right: 0;
+  float: left;
+}
+
+.contact-icon {
+
+}
+
+.sep {
+  border-right: black solid 2px;
+  color: white;
+}
+
+.pills:hover {
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+}
+a .hid {
+  visibility: hidden;
+}
+a:hover .hid {
+  visibility: visible;
+}
+
+#tumb-text {
+  color: rgb(168, 168, 168);
+  font-family: liee;
+  font-size: 15px;
+}
+/* -------- Debut thmbnail ------*/
+.box-thumb{
+  height: 50vw;
+}
+.gimli-text {
+  font-family: liee;
+  color: rgb(219, 71, 24);
+  font-size: 30px;
+  text-align: center;
+}
+.img_gimli
+{
+  opacity: 0.5;
+}
+.dead {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2vw;
+  color: red;
+}
+.name{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+}
+.mille,.huit_cent{
+  color: orange;
+}
+.reward{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2vw;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.gimli
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.survole:hover .reward
+{
+  display: none;
+}
+.survole:hover .name{
+  position: absolute;
+  top: 30vw;
+  font-size: 3vw;
+}
+.gimli-img,.aragorn-img,.gandalf-img {
+  border: 5px solid #000;
+  background-color: #000;
+  padding: 0;
+  }
+.img_gimli{
+  opacity: 0.4;
+}
+.caption {
+  background-color: #000;
+  font-size: 2vw;
+  color: white;
+  padding: 10px;
+}
+/*-------- Fin Thumbnail -----*/
+
+@font-face {
+      font-family: "aniron";
+      src: url("font/anirb___.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      src: url("font/anirm___.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: "liee";
+      src: url("font/partybusiness.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: "symbols";
+  src: url("font/tnganbi.ttf") format("truetype");
+  src: url("font/tngani.ttf") format("truetype")
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+html {
+  font-size: 14px;
+}
+
+
+
+/* OUR BEST HUNTERS */
+
+.huntername{
+  font-family:"liee";
+  font-size:5vw;
+  color:orange
+}
+
+.nbcaptures{
+  font-family:"liee";
+  font-size:3vw;
+}
+
+.prime{
+  font-family:"liee";
+  color:orange;
+  font-size:3vw;
+}
+
+.parallelogramme{
+  width:15vw;
+  height:4vw;
+  background:black;
+  margin-left:1vw;
+  -webkit-transform:skew(-20deg);
+  -moz-transform:skew(-20deg);
+  -o-transform:skew(-20deg);
+  tranform:skew(-20deg);
+}
+
+.anneau{
+  width:3vw;
+  height:auto;
+  margin-left:1vw;
+  margin-right:1vw;
+}
+
+.avatar{
+  width:15vw;
+  height:auto
+}
+
+
+/* FORMULAIRE DE CONTACT */
+
+.formcontact
+{
+   min-width: 300px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-bottom: 50px;
+}
+
+.formulaire {
+  font-family:"aniron";
+  font-size:1.2em;
+  color:grey
+}
+
+.hunter {
+  margin-bottom: 50px;
+}
+
+/* .row-need {
+  display: flex;
+} */
+
+#need-paral {
+  background-color: black;
+  tranform:skew(-20deg);
+}
+
+.need-img {
+  width: 100%;
+  height: auto;
+}
+
+form div{
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+input, textarea, select {
+  width:100%;
+  height:auto;
+  border:1px solid grey;
+  border-radius:5px;
+}
+
+#map {
+  width:100%;
+  height:auto;
+}
+
+textarea {
+  height:5em;
+  resize:vertical;
+  vertical-align:top
+}
+
+label {
+  display:block
+}
+
+/* FIN DE FORMULAIRE DE CONTACT */
+
+.nav img{
+  width: 50%;
+  margin-top: 10px;
+}
+
+
+#sep{
+
+  border-right: solid white 1px;
+  border-right-width: thin;
+}
+
+.container-fluid{
+  background-color: #ff6600;
+}
+
+
+footer{
+	  background-color: #ff6600;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+	}
+/*join the army*/
+.toto{
+ padding-bottom:5vw;
+ padding-left: 3vw;
+}
+
+#text1{
+ font-family: "liee";
+ font-size: 2.7vw;
+}
+
+#moreinfo{
+ padding-top: 3vw;
+ font-size: 2vw;
+}
+#sauronrules{
+ font-size: 1.5vw;
+}
+
+#needyou {
+ width:90%;
+ height: auto;
+}
+
+.parallelogramme1{
+    width:30vw;
+    height:2.7vw;
+    background:black;
+    -webkit-transform:skew(-20deg);
+    -moz-transform:skew(-20deg);
+    -o-transform:skew(-20deg);
+    tranform:skew(-20deg);
+ margin: auto;
+ box-shadow: 0.3vw 0.3vw 0.3vw grey;
+}
+/* fin join the army */
